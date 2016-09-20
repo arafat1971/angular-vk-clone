@@ -1,0 +1,36 @@
+{
+    "id": 54187929842984,
+    "userInfo": {
+        "avatarUrl": "https://frenchfinest.files.wordpress.com/2012/06/saint-exupery.jpg",
+        "fullName": "Antoine Marie Jean-Baptiste Roger",
+        "aliasName": "Exupéry",
+        "email": "flymacho@gmail.com",
+        "birthdate": "1900-06-29",
+        "gender": "male",
+        "address": "4th Ave. NYC USA"
+    },
+    "userSettings": {
+        "visibilityData": {
+            "profile": true,
+            "images": true,
+            "movies": true,
+            "friends": true
+        },
+        "changeData": {
+            "username": "Walter White",
+            "email": "heisenberg@gmail.com",
+            "alias": "Heisenberg"
+        },
+        "changePass": {
+            "letters": true,
+            "oldPass": "asdkfasdfk",
+            "newPass": "",
+            "newAgain": ""
+        }
+    },
+    "images":  [{"id": 1}, {"id": 2}, {"id": 3}],
+    "movies":  [{"id": 1}, {"id": 2}, {"id": 3}],
+    "posts":   [{"id": 1}, {"id": 2}, {"id": 3}],
+    "friends": [{"id": 1}, {"id": 2}, {"id": 3}]
+}
+
