@@ -1,0 +1,20 @@
+.main {
+    
+}
+.main,
+.main__aside,
+.main__content {
+    display: block;
+}
+.main__aside,
+.main__content {
+    padding: 10px;
+    background-color: #ddd;
+    margin: 5px 0;
+}
+.main__aside {
+    border: solid 1px #333;
+}
+.main__content {
+    border: solid 1px #333;
+}

@@ -1,5 +1,29 @@
-.page {
+.page,
+.page__top,
+.page__nav,
+.page__main {
     display: block;
+    padding: 5px 10px;
+}
+.page__top,
+.page__nav,
+.page__main {
+    margin: 5px 0;
+    background-color: #eee;
+}
+
+.page {
 /*    min-height: 100%;*/
     background-color: #aaa;
+}
+
+
+.page__top {
+    border: solid 3px #333;
+}
+.page__nav {
+    border: solid 3px #0057a2;
+}
+.page__main {
+    border: solid 3px #c00;
 }

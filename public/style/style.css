@@ -1,0 +1,18 @@
+@import url("components/page.css");
+
+/* common * common * common * common * common * common * common * common * common */
+@import url("components/common/main/main.css");
+
+/* components * components * components * components * components * components */
+/*@import url("components/components/")*/
+
+
+.application {
+    height: 100%;
+}
+
+.root_run {
+    color: #fff;
+    text-align: center;
+    background-color: #c00;
+}
