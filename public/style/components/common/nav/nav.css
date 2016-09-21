@@ -1,0 +1,27 @@
+.nav,
+.nav__container,
+.nav__head,
+.nav__body,
+.nav__foot {
+    padding: 5px;
+}
+
+.nav {
+    float: left;
+    width: 20%;
+}
+
+.nav__container {}
+
+.nav__head {
+    background-color: #aaa;
+}
+
+.nav__body {
+    background-color: #fff;
+}
+
+.nav__foot {
+    background-color: #fff;
+    border-top: solid 1px #333;
+}

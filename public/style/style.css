@@ -2,6 +2,7 @@
 
 /* common * common * common * common * common * common * common * common * common */
 @import url("components/common/main/main.css");
+@import url("components/common/nav/nav.css");
 
 /* components * components * components * components * components * components */
 /*@import url("components/components/")*/
@@ -15,4 +16,8 @@
     color: #fff;
     text-align: center;
     background-color: #c00;
+}
+
+ui-view {
+    display: block;
 }

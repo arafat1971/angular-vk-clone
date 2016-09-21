@@ -8,3 +8,9 @@ const pageMainComponent = {
 };
 
 export default pageMainComponent;
+
+
+
+
+
+
