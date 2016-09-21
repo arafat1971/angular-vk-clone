@@ -1,28 +1,25 @@
 .page,
-.page__top,
-.page__nav,
-.page__main {
+.page__container {
     display: block;
-    padding: 5px;
-}
-.page__top,
-.page__nav,
-.page__main {
-    background-color: #eee;
 }
 
 .page {
-/*    min-height: 100%;*/
-    background-color: #aaa;
+    min-height: 100%;
+    background-color: #ccc;
 }
 
-
-.page__top {
-    border: solid 3px #333;
-}
-.page__nav {
-    border: solid 3px #0057a2;
-}
-.page__main {
+.page__container {
     border: solid 3px #c00;
+    padding: 10px
 }
+
+.page__container:after,
+.page__container:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.page__head {}
+
+.page__body {}

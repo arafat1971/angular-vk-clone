@@ -1,21 +1,21 @@
 .main,
-.main__aside,
-.main__content {
+.main__container {
     display: block;
-}
-.main__aside,
-.main__content {
-    padding: 5px;
-    background-color: #ddd;
+    padding: 10px;
 }
 
 .main {
+    border: solid 3px #0000d8;
     float: right;
     width: 80%;
 }
-.main__aside {
-    border: solid 1px #333;
+.main__container {
+    border: solid 3px #b4b4ff;
 }
-.main__content {
-    border: solid 1px #333;
+
+.main__container:after,
+.main__container:before {
+    content: '';
+    display: table;
+    clear: both;
 }

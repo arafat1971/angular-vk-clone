@@ -1,8 +1,12 @@
 @import url("components/page.css");
 
 /* common * common * common * common * common * common * common * common * common */
-@import url("components/common/main/main.css");
+@import url("components/common/top/top.css");
+@import url("components/common/general/general.css");
 @import url("components/common/nav/nav.css");
+@import url("components/common/main/main.css");
+@import url("components/common/aside/aside.css");
+@import url("components/common/content/content.css");
 
 /* components * components * components * components * components * components */
 /*@import url("components/components/")*/

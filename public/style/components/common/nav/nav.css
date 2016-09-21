@@ -1,27 +1,16 @@
 .nav,
-.nav__container,
-.nav__head,
-.nav__body,
-.nav__foot {
-    padding: 5px;
+.nav__container {
+    display: block;
 }
 
 .nav {
     float: left;
     width: 20%;
-}
-
-.nav__container {}
-
-.nav__head {
-    background-color: #aaa;
-}
-
-.nav__body {
     background-color: #fff;
+    padding: 10px;
 }
 
-.nav__foot {
-    background-color: #fff;
-    border-top: solid 1px #333;
+.nav__container {
+    border: solid 1px #aaa;
+    padding: 5px;
 }

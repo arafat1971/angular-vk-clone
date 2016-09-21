@@ -1,16 +1,17 @@
 /*global angular */
+
 "use strict";
 
-import pageTop  from './page-top/index.js';
-import pageNav  from './page-nav/index.js';
-import pageMain from './page-main/index.js';
+import AppTop  from './app-top/index.js';
+import AppNav  from './app-nav/index.js';
+import AppMain from './app-main/index.js';
 
 
 
 const common = angular.module('app.common', [
-        pageTop,
-        pageNav,
-        pageMain
+        AppTop,
+        AppNav,
+        AppMain
     ])
     .name;
 

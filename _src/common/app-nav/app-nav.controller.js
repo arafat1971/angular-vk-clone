@@ -1,11 +1,10 @@
 'use strict';
 
-class PageNavController {
+class appNavController {
     constructor($rootScope) {
         this.id = $rootScope.profileId;
         //console.log(this);
     }
 }
 
-
-export default PageNavController;
+export default appNavController;

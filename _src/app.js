@@ -1,16 +1,21 @@
 /*global angular */
+
 'use strict';
 
-import AppComponent from './app.component.js';
-import Components   from './components/index.js';
-import Common       from './common/index.js';
+import AppRootComponent from './app-root.component.js';
+import Components       from './components/index.js';
+import Common           from './common/index.js';
+
 
 module.export = angular
-    .module('myApp', [Components, Common, "ui.router"])
+    .module('vkClone', [
+        Components,
+        Common,
+        "ui.router"
+    ])
     .run(($rootScope) => {
-        $rootScope.demo = "vk.com demo";
+        //$rootScope.demo = "vk.com demo";
         $rootScope.profileId = "mr-heisenberg";
     })
-    .component('page', AppComponent)
+    .component('appRoot', AppRootComponent)
     .name;
-

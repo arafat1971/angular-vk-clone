@@ -1,0 +1,29 @@
+.aside,
+.aside__container,
+.aside__head,
+.aside__body,
+.aside__foot {
+    display: block;
+}
+
+.aside {
+    float: left;
+    width: 30%;
+}
+
+.aside__container {
+    background-color: #fafafa;
+    margin-bottom: 10px;
+}
+
+.aside__head {
+    padding: 5px;
+    background-color: #eee;
+}
+
+.aside__body {
+    padding: 10px 5px;
+    min-height: 100px;
+}
+
+.aside__foot {}
