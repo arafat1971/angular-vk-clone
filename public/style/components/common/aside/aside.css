@@ -7,10 +7,14 @@
 }
 
 .aside {
-    float: left;
     width: 30%;
 }
-
+.aside.left {
+    float: left;
+}
+.aside.right {
+    float: right;
+}
 .aside__container {
     background-color: #fafafa;
     margin-bottom: 10px;

@@ -25,26 +25,17 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.home", {
             url: "/",
             template: `
-                <aside-home   class="aside"></aside-home>
-                <content-home class="content"></content-home>
+                <aside-home   class="aside left"></aside-home>
+                <content-home class="content right"></content-home>
             `,
         });
         
         // ----------------------------------------------------------
-        $stateProvider.state("profile.news", {
-            url: "/news",
+        $stateProvider.state("profile.audio", {
+            url: "/audio",
             template: `
-                <content-news class="content"></content-news>
-                <aside-news   class="aside"></aside-news>
-            `
-        });
-        
-        // ----------------------------------------------------------
-        $stateProvider.state("profile.messages", {
-            url: "/messages",
-            template: `
-                <content-messages class="content"></content-messages>
-                <aside-messages   class="aside"></aside-messages>
+                <content-audio class="content"></content-audio>
+                <aside-audio   class="aside right"></aside-audio>
             `
         });
         
@@ -53,7 +44,33 @@ const appNav = angular.module("appNav", [])
             url: "/friends",
             template: `
                 <content-friends class="content"></content-friends>
-                <aside-friends   class="aside"></aside-friends>
+                <aside-friends   class="aside right"></aside-friends>
+            `
+        });
+        
+        // ----------------------------------------------------------
+        $stateProvider.state("profile.games", {
+            url: "/games",
+            template: `
+                <content-games></content-games>
+            `
+        });
+        
+        // ----------------------------------------------------------
+        $stateProvider.state("profile.news", {
+            url: "/news",
+            template: `
+                <content-news class="content"></content-news>
+                <aside-news   class="aside right"></aside-news>
+            `
+        });
+        
+        // ----------------------------------------------------------
+        $stateProvider.state("profile.messages", {
+            url: "/messages",
+            template: `
+                <content-messages class="content"></content-messages>
+                <aside-messages   class="aside right"></aside-messages>
             `
         });
         
@@ -62,7 +79,7 @@ const appNav = angular.module("appNav", [])
             url: "/groups",
             template: `
                 <content-groups class="content"></content-groups>
-                <aside-groups   class="aside"></aside-groups>
+                <aside-groups   class="aside right"></aside-groups>
             `
         });
         
@@ -75,29 +92,16 @@ const appNav = angular.module("appNav", [])
         });
         
         // ----------------------------------------------------------
-        $stateProvider.state("profile.audio", {
-            url: "/audio",
-            template: `
-                <content-audio class="content"></content-audio>
-                <aside-audio   class="aside"></aside-audio>
-            `
-        });
-        
-        // ----------------------------------------------------------
         $stateProvider.state("profile.movies", {
             url: "/movies",
             template: `
-                <content-movie></content-movie>
+                <content-movies></content-movies>
             `
         });
         
-        // ----------------------------------------------------------
-        $stateProvider.state("profile.games", {
-            url: "/games",
-            template: `
-                <content-games></content-games>
-            `
-        });
+        
+        
+        
         
         
         
