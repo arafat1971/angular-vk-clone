@@ -1,7 +1,17 @@
 .content {
-    float: right;
     width: 70%;
+}
+
+.content.left {
+    float: left;
+    padding-right: 10px;
+}
+.content.right {
+    float: right;
     padding-left: 10px;
+}
+.content.full {
+    width: 100%;
 }
 
 .content__container {
@@ -10,8 +20,12 @@
     padding: 10px;
 }
 
+.content__head,
+.content__body,
+.content__foot {
+    margin: 10px 0;
+}
+
 .content__head {}
-
 .content__body {}
-
 .content__foot {}

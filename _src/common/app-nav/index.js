@@ -34,7 +34,7 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.audio", {
             url: "/audio",
             template: `
-                <content-audio class="content"></content-audio>
+                <content-audio class="content left"></content-audio>
                 <aside-audio   class="aside right"></aside-audio>
             `
         });
@@ -43,7 +43,7 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.friends", {
             url: "/friends",
             template: `
-                <content-friends class="content"></content-friends>
+                <content-friends class="content left"></content-friends>
                 <aside-friends   class="aside right"></aside-friends>
             `
         });
@@ -52,7 +52,7 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.games", {
             url: "/games",
             template: `
-                <content-games></content-games>
+                <content-games class="content full"></content-games>
             `
         });
         
@@ -60,7 +60,7 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.news", {
             url: "/news",
             template: `
-                <content-news class="content"></content-news>
+                <content-news class="content left"></content-news>
                 <aside-news   class="aside right"></aside-news>
             `
         });
@@ -69,7 +69,7 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.messages", {
             url: "/messages",
             template: `
-                <content-messages class="content"></content-messages>
+                <content-messages class="content left"></content-messages>
                 <aside-messages   class="aside right"></aside-messages>
             `
         });
@@ -78,7 +78,7 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.groups", {
             url: "/groups",
             template: `
-                <content-groups class="content"></content-groups>
+                <content-groups class="content left"></content-groups>
                 <aside-groups   class="aside right"></aside-groups>
             `
         });
@@ -87,7 +87,7 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.images", {
             url: "/images",
             template: `
-                <content-images class="content"></content-images>
+                <content-images class="content full"></content-images>
             `
         });
         
@@ -95,11 +95,9 @@ const appNav = angular.module("appNav", [])
         $stateProvider.state("profile.movies", {
             url: "/movies",
             template: `
-                <content-movies></content-movies>
+                <content-movies class="content full"></content-movies>
             `
         });
-        
-        
         
         
         

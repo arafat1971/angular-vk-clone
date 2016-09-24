@@ -7,11 +7,11 @@ const ContentHomeComponent = {
         </div>
 
         <div class="content__container">
-            <add-pic>add pic</add-pic>
+            <add-pic class="form">FORM (add pic)</add-pic>
         </div>
 
         <div class="content__container">
-            <add-news>add news</add-news>
+            <add-news class="form">FORM (add news)</add-news>
         </div>
 
         <div class="content__container">
