@@ -1,5 +1,23 @@
+.general,
+.general__container {
+    padding: 6px;
+    display: block;
+}
+
 .general {
     min-width: 300px;
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
+    outline: solid 2px #f00;
+}
+
+.general__container:after,
+.general__container:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.general__container {
+    border: solid 2px #f00;
 }

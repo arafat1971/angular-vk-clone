@@ -19,20 +19,6 @@ const UserProfileModule = angular.module("UserProfileModule", [
     ])
 
     .config(($locationProvider, $stateProvider, $urlRouterProvider) => {
-        // $locationProvider.html5Mode(true); // Rremove hash from url:
-        // ==================================================================================
-        $urlRouterProvider.otherwise("/");
-        // ==================================================================================
-        // logged user:
-        $stateProvider.state("profile", {
-            url: "/:profileId",
-            template: `<user-profile class="main__container" id="$ctrl.profileId"></user-profile>`,
-            controller: function($stateParams) {
-                this.profileId = $stateParams.profileId;
-            },
-            controllerAs: "$ctrl"
-        });
-        // ==================================================================================
         $stateProvider.state("profile.audio", {
             url: "/audio",
             template: `<main-audio class="main__container"></main-audio>`

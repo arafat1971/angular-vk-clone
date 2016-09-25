@@ -11,12 +11,26 @@ module.export = angular
     .module("vkClone", [
         Common,
         Components,
+        "ui.router"
     ])
-
     .run(($rootScope) => {
-        //$rootScope.demo = "vk.com demo";
         $rootScope.profileId = "mr-heisenberg";
     })
-
+    .config(($locationProvider, $stateProvider, $urlRouterProvider) => {
+        // $locationProvider.html5Mode(true); // Rremove hash from url:
+        $urlRouterProvider.otherwise("/");
+        $stateProvider.state("login", {
+            url: "/login",
+            template: `<user-login></user-login>`,
+        });
+        $stateProvider.state("profile", {
+            url: "/:profileId",
+            template: `<user-profile class="general__container" id="$ctrl.profileId"></user-profile>`,
+            controller: function($stateParams) {
+                this.profileId = $stateParams.profileId;
+            },
+            controllerAs: "$ctrl"
+        });
+    })
     .component("appRoot", AppRootComponent)
     .name;

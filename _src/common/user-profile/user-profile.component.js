@@ -10,9 +10,15 @@ const UserProfileComponent = {
     },
     controller,
     template: `
-        <h3 class="">Profile: <span>{{$ctrl.id}}</span></h3>
-        <ui-view class=""></ui-view>
+        <div class="">Profile: <span>{{$ctrl.id}}</span></div>
+        <app-nav class="nav left"></app-nav>
+        <ui-view class="main right"></ui-view>
         `
 };
 
 export default UserProfileComponent;
+
+
+
+
+//        <ui-view class=""></ui-view>

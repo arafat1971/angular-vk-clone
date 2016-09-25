@@ -1,16 +1,22 @@
 .nav,
 .nav__container {
     display: block;
+    border: solid 2px #00e2ff;
+    padding: 6px;
 }
 
 .nav {
-    float: left;
     width: 20%;
-    background-color: #fff;
-    padding: 10px;
+}
+
+.nav.right {
+    float: right;
+}
+
+.nav.left {
+    float: left;
 }
 
 .nav__container {
-    border: solid 1px #aaa;
-    padding: 5px;
+    background-color: #fff;
 }

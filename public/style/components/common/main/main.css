@@ -1,17 +1,25 @@
 .main,
 .main__container {
+    border: solid 2px #0e0;
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 
 .main {
-    border: solid 3px #0000d8;
+    width: 79%;
+}
+
+.main.right {
     float: right;
-    width: 80%;
+    margin-left: 1%;
 }
-.main__container {
-    border: solid 3px #b4b4ff;
+
+.main.left {
+    float: left;
+    margin-right: 1%;
 }
+
+.main__container {}
 
 .main__container:after,
 .main__container:before {

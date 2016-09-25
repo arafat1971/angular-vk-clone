@@ -1,25 +1,15 @@
 .page,
 .page__container {
+    border: solid 2px gold;
     display: block;
+    padding: 6px
 }
 
 .page {
     min-height: 100%;
-    background-color: #ccc;
+    background-color: #777;
 }
 
-.page__container {
-    border: solid 3px #c00;
-    padding: 10px
-}
-
-.page__container:after,
-.page__container:before {
-    content: '';
-    display: table;
-    clear: both;
-}
-
+.page__container {}
 .page__head {}
-
 .page__body {}
