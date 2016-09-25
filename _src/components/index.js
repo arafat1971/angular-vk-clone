@@ -1,26 +1,32 @@
 /*global angular */
 
-'use strict';
+"use strict";
+
+import AudioModule    from "./audio-module/index.js";
+import DocsModule     from "./docs-module/index.js";
+import FormModule     from "./forms-module/index.js";
+import GamesModule    from "./games-module/index.js";
+import GroupsModule   from "./groups-module/index.js";
+import ImagesModule   from "./images-module/index.js";
+import MessagesModule from "./messages-module/index.js";
+import MoviesModule   from "./movies-module/index.js";
+import NewsModule     from "./news-module/index.js";
+import UserModule     from "./user-module/index.js";
 
 
-import MenuList    from './menu-list/index.js';
 
-import userList    from './user-list/index.js';
-import userProfile from './user-profile/index.js';
-import imageList   from './image-list/index.js';
-import movieList   from './movie-list/index.js';
-import postList    from './post-list/index.js';
-
-
-const components = angular.module('app.components', [
-        MenuList,
-        userList,
-        userProfile,
-        imageList,
-        movieList,
-        postList
+const components = angular.module("app.components", [
+        AudioModule,
+        DocsModule,
+        FormModule,
+        GamesModule,
+        GroupsModule,
+        ImagesModule,
+        MessagesModule,
+        MoviesModule,
+        NewsModule,
+        UserModule
     ])
     .name;
 
 export default components;
-
