@@ -21,85 +21,50 @@ const appNav = angular.module("appNav", [])
             controllerAs: "$ctrl"
         });
         
-        // ----------------------------------------------------------
-        $stateProvider.state("profile.home", {
-            url: "/",
-            template: `
-                <aside-home   class="aside left"></aside-home>
-                <content-home class="content right"></content-home>
-            `,
-        });
-        
-        // ----------------------------------------------------------
         $stateProvider.state("profile.audio", {
             url: "/audio",
-            template: `
-                <content-audio class="content left"></content-audio>
-                <aside-audio   class="aside right"></aside-audio>
-            `
+            template: `<main-audio class="main__container"></main-audio>`
         });
         
-        // ----------------------------------------------------------
         $stateProvider.state("profile.friends", {
             url: "/friends",
-            template: `
-                <content-friends class="content left"></content-friends>
-                <aside-friends   class="aside right"></aside-friends>
-            `
+            template: `<main-friends class="main__container"></main-friends>`
         });
         
-        // ----------------------------------------------------------
         $stateProvider.state("profile.games", {
             url: "/games",
-            template: `
-                <content-games class="content full"></content-games>
-            `
+            template: `<main-games class="main__container"></main-games>`
         });
         
-        // ----------------------------------------------------------
-        $stateProvider.state("profile.news", {
-            url: "/news",
-            template: `
-                <content-news class="content left"></content-news>
-                <aside-news   class="aside right"></aside-news>
-            `
-        });
-        
-        // ----------------------------------------------------------
-        $stateProvider.state("profile.messages", {
-            url: "/messages",
-            template: `
-                <content-messages class="content left"></content-messages>
-                <aside-messages   class="aside right"></aside-messages>
-            `
-        });
-        
-        // ----------------------------------------------------------
         $stateProvider.state("profile.groups", {
             url: "/groups",
-            template: `
-                <content-groups class="content left"></content-groups>
-                <aside-groups   class="aside right"></aside-groups>
-            `
+            template: `<main-groups class="main__container"></main-groups>`
         });
         
-        // ----------------------------------------------------------
+        $stateProvider.state("profile.home", {
+            url: "/",
+            template: `<main-home class="main__container"></main-home>`
+        });
+        
         $stateProvider.state("profile.images", {
             url: "/images",
-            template: `
-                <content-images class="content full"></content-images>
-            `
+            template: `<main-images class="main__container"></main-images>`
         });
         
-        // ----------------------------------------------------------
+        $stateProvider.state("profile.messages", {
+            url: "/messages",
+            template: `<main-messages class="main__container"></main-messages>`
+        });
+        
         $stateProvider.state("profile.movies", {
             url: "/movies",
-            template: `
-                <content-movies class="content full"></content-movies>
-            `
+            template: `<main-movies class="main__container"></main-movies>`
         });
         
-        
+        $stateProvider.state("profile.news", {
+            url: "/news",
+            template: `<main-news class="main__container"></main-news>`
+        });
         
         
         
