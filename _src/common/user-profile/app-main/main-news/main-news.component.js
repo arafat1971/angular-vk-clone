@@ -6,10 +6,19 @@ const MainNewsComponent = {
             <div class="content__container">
                 <form-example class="form"></form-example>
             </div>
+
+            <div class="content__container">
+                <div class="content__head">Passible images</div>
+                <div class="content__body">
+                    <image-item ng-repeat="image in [1,2,3,4,5]" class="image"></image-item>
+                </div>
+            </div>
+
             <div ng-repeat="news in [1,2,3,4,5]" class="content__container">
                 <news-item class="news"></news-item>
             </div>
         </div>
+
 
         <div class="aside right">
             <div class="aside__container">

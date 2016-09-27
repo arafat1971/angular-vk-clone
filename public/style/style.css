@@ -11,6 +11,8 @@
 
 
 /* components * components * components * components * components * components */
+@import url("components/components/link/link.css");
+@import url("components/components/menu/menu.css");
 @import url("components/components/form/form.css");
 @import url("components/components/player/player.css");
 @import url("components/components/item/item.css");
