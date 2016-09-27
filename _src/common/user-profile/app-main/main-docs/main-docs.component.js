@@ -1,0 +1,32 @@
+'use strict';
+
+const MainBookmarksComponent = {
+    template: `
+        <div class="content left">
+            <div class="content__container">
+                <div class="content__head">
+                    <span>My type of bookmarks</span>
+                    <a class="btn" href="javascript:void(0);">Add link</a>
+                </div>
+                <div class="form">
+                    <form-example></form-example>
+                </div>
+                <div class="content__body">
+                    <div>Here ui-view: (example - user-item)</div>
+                    <doc-item ng-repeat="doc in [1,2,3,4,5]" class="item"></doc-item>
+                </div>
+            </div>
+        </div>
+
+        <div class="aside right">
+            <div class="aside__container">
+                <menu-item ng-repeat="item in [1,2,3,4,5,6]" class="item"></menu-item>
+            </div>
+        </div>
+        `
+};
+
+export default MainBookmarksComponent;
+
+
+

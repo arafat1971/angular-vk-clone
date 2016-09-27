@@ -11,6 +11,7 @@
 
 
 /* components * components * components * components * components * components */
+@import url("components/components/icon/icon.css");
 @import url("components/components/link/link.css");
 @import url("components/components/menu/menu.css");
 @import url("components/components/form/form.css");
@@ -22,6 +23,8 @@
 @import url("components/components/image/image.css");
 @import url("components/components/image/album.css");
 @import url("components/components/news/news.css");
+@import url("components/components/gift/gift.css");
+@import url("components/components/message/message.css");
 
 
 

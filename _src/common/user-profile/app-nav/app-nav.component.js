@@ -36,10 +36,14 @@ const appNavComponent = {
                 </li>
             </ul>
         </div>
+
         <div class="nav__container menu">
             <ul class="menu__list">
                 <li class="menu__item">
-                    <a class="link" ui-sref-active="active" ui-sref="profile.settings({profileId:$ctrl.id})">settings</a>
+                    <a class="link" ui-sref-active="active" ui-sref="profile.bookmarks({profileId:$ctrl.id})">bookmarks</a>
+                </li>
+                <li class="menu__item">
+                    <a class="link" ui-sref-active="active" ui-sref="profile.docs({profileId:$ctrl.id})">documents</a>
                 </li>
             </ul>
         </div>`
@@ -52,3 +56,7 @@ export default appNavComponent;
 
 
 
+
+//                <li class="menu__item">
+//                    <a class="link" ui-sref-active="active" ui-sref="profile.settings({profileId:$ctrl.id})">settings</a>
+//                </li>

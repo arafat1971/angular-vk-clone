@@ -1,5 +1,6 @@
 "use strict";
 
+
 const UserInfoComponent = {
     template: `
         <div class="title">My name is: ...</div>
@@ -10,7 +11,6 @@ const UserInfoComponent = {
             Easy prey for predators but the blowfish has a secret weapon doesn't he.
             Doesn't he? What does the blowfish do, Jesse.
             What does the blowfish do? The blowfish puffs up, okay?</div>
-            <div class="social">List of social links:
         </div>
         `
 };

@@ -34,3 +34,4 @@ module.export = angular
     })
     .component("appRoot", AppRootComponent)
     .name;
+

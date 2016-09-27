@@ -4,13 +4,14 @@ const MainHomeComponent = {
     template: `
         <div class="aside left">
             <div class="aside__container">
-                <user-pic>user-pic</user-pic>
+                <user-pic class="image"></user-pic>
+                <a class="btn" href="javascript:void(0);">Edit userpic</a>
             </div>
 
             <div class="aside__container">
                 <div class="aside__head">Gifts</div>
                 <div class="aside__body">
-                    <gift-item ng-repeat="gift in [1,2,3,4,5,6]" class="item">gift-item</gift-item>
+                    <gift-item ng-repeat="gift in [1,2,3]" class="gift"></gift-item>
                 </div>
             </div>
 
@@ -35,7 +36,7 @@ const MainHomeComponent = {
                 <hr />
                 <div class="aside__head">Pictures</div>
                 <div class="aside__body">
-                    <image-item ng-repeat="image in [1,2]" class="image"></image-item>
+                    <album-item ng-repeat="album in [1,2]" class="album"></album-item>
                 </div>
 
                 <hr />

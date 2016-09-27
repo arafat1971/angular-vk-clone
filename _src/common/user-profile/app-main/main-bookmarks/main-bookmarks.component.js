@@ -1,19 +1,19 @@
 'use strict';
 
-const MainMessagesComponent = {
+const MainBookmarksComponent = {
     template: `
         <div class="content left">
             <div class="content__container">
+                <div class="content__head">
+                    <span>My type of bookmarks</span>
+                    <a class="btn" href="javascript:void(0);">Add link</a>
+                </div>
                 <div class="form">
                     <form-example></form-example>
                 </div>
                 <div class="content__body">
-                    <message-item ng-repeat="dialog in [1,2,3,4,5]" class="message"></message-item>
-                </div>
-                <div class="content__foot">
-                    <a class="btn btn_dflt" href="javascript:void(0);">Mute ON</a>
-                    <a class="btn btn_dflt" href="javascript:void(0);">Spam</a>
-                    <a class="btn btn_dflt" href="javascript:void(0);">icon</a>
+                    <div>Here ui-view: (example - user-item)</div>
+                    <user-item ng-repeat="user in [1,2,3,4,5]" class="user"></user-item>
                 </div>
             </div>
         </div>
@@ -26,4 +26,7 @@ const MainMessagesComponent = {
         `
 };
 
-export default MainMessagesComponent;
+export default MainBookmarksComponent;
+
+
+

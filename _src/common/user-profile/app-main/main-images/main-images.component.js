@@ -11,12 +11,13 @@ const MainImagesComponent = {
                     <a class="btn" href="javascript:void(0);">Add photo</a>
                 </div>
                 <div class="content__body">
-                    <album-item ng-repeat="album in [1,2,3,4,5]" class="album">album</album-item>
+                    <album-item ng-repeat="album in [1,2,3]" class="album"></album-item>
                 </div>
                 <div class="content__foot">
                     <a class="btn btn_dflt" href="javascript:void(0);">Colapse it</a>
                 </div>
             </div>
+
             <div class="content__container">
                 <div class="content__head">
                     <span>My photo</span>

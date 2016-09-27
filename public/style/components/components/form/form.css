@@ -4,7 +4,18 @@
     padding: 5px;
 }
 
-.from__container {}
+.form input[type="text"],
+.form input[type="password"] {
+    width: 100%;
+    border: none;
+    background-color: #ffe1d6;
+    line-height: 24px;
+    padding: 3px 5px;
+}
+
+.from__container {
+    position: relative;
+}
 
 .from__head,
 .from__body,
@@ -19,10 +30,17 @@
     padding: 3px;
 }
 
+.from__head,
+.from__foot {
+    display: none;
+}
 
-.from__head {}
+.from__head {
+}
 
 .from__body {
+    position: relative;
+    z-index: 1;
     width: 100%;
     display: table;
     margin: 3px 0;
@@ -35,6 +53,11 @@
 
 .from__col {
     display: table-cell;
+    width: 0;
+}
+.from__col:nth-child(2) {
+    width: 100%;
 }
 
-.from__foot {}
+.from__foot {
+}

@@ -8,7 +8,7 @@ const MainGamesComponent = {
                 <div class="content__head">
                     <a class="btn btn_dflt" href="javascript:void(0);">My Game</a>
                 </div>
-                <game-item ng-repeat="game in [1,2,3]" class="item"></game-item>
+                <game-item ng-repeat="game in [1,2,3,4,5]" class="item"></game-item>
             </div>
 
             <div class="content__container half" equal-sibling>
