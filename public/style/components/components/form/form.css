@@ -3,3 +3,38 @@
     border: solid 2px coral;
     padding: 5px;
 }
+
+.from__container {}
+
+.from__head,
+.from__body,
+.from__foot,
+.from__col {
+    border: solid 1px coral;
+}
+
+.from__head,
+.from__foot,
+.from__col {
+    padding: 3px;
+}
+
+
+.from__head {}
+
+.from__body {
+    width: 100%;
+    display: table;
+    margin: 3px 0;
+    border-spacing: 3px;
+}
+
+.from__row {
+    display: table-row;
+}
+
+.from__col {
+    display: table-cell;
+}
+
+.from__foot {}

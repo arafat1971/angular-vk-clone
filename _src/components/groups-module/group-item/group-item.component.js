@@ -3,10 +3,10 @@
 
 const GroupItemComponent = {
     template: `
-        <div class="item__container">
-            <div class="item__head">item__head (Group)</div>
-            <div class="item__body">item__body (Group)</div>
-            <div class="item__foot">item__foot (Group)</div>
+        <div class="user__container">
+            <div class="user__head">group</div>
+            <div class="user__body">group</div>
+            <div class="user__foot">group</div>
         </div>
         `
 };

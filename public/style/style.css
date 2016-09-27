@@ -12,11 +12,35 @@
 
 /* components * components * components * components * components * components */
 @import url("components/components/form/form.css");
+@import url("components/components/player/player.css");
+@import url("components/components/item/item.css");
+@import url("components/components/user/user.css");
+@import url("components/components/btn/btn.css");
+@import url("components/components/movie/movie.css");
+@import url("components/components/image/image.css");
+@import url("components/components/image/album.css");
+@import url("components/components/news/news.css");
 
 
 
 .application {
     height: 100%;
+}
+
+.wrapper {
+    min-width: 300px;
+    max-width: 960px;
+    margin: 0 auto;
+    outline: solid 2px #fff;
+}
+
+.check_it_all {
+    font-size: 12px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    background-color: #333;
+    margin-bottom: 5px;
 }
 
 ui-view {

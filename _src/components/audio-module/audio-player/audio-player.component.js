@@ -4,9 +4,9 @@
 const AudioPlayerComponent = {
     template: `
         <div class="player__container">
-            <div class="player__head">player__head</div>
-            <div class="player__body">player__body</div>
-            <div class="player__foot">player__foot</div>
+            <div class="player__head">player head</div>
+            <div class="player__body">player body</div>
+            <div class="player__foot">player foot</div>
         </div>
         `
 };

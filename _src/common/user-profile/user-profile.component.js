@@ -10,7 +10,7 @@ const UserProfileComponent = {
     },
     controller,
     template: `
-        <div class="">Profile: <span>{{$ctrl.id}}</span></div>
+        <div class="check_it_all">Profile: <span>{{$ctrl.id}}</span></div>
         <app-nav class="nav left"></app-nav>
         <ui-view class="main right"></ui-view>
         `

@@ -1,0 +1,18 @@
+.movie {
+    display: block;
+    background-color: #87b4d4;
+}
+
+.movie + .movie {
+    margin-top: 10px;
+}
+
+.movie__container {
+    padding: 10px;
+}
+
+.movie__head {}
+
+.movie__body {}
+
+.movie__foot {}

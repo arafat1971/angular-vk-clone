@@ -4,31 +4,22 @@ const MainNewsComponent = {
     template: `
         <div class="content left">
             <div class="content__container">
-                <add-news class="form">FORM (add news) + btns</add-news>
+                <form-example class="form"></form-example>
             </div>
-            <hr />
-            <div>REPEATED BLOCKS</div>
-            <div class="content__container">
-                <post-item></post-item>
+            <div ng-repeat="news in [1,2,3,4,5]" class="content__container">
+                <news-item class="news"></news-item>
             </div>
-            <div class="content__container">
-                <post-item></post-item>
-            </div>
-            <div class="content__container">
-                <post-item></post-item>
-            </div>
-            lazy loading by scroll
         </div>
 
         <div class="aside right">
             <div class="aside__container">
-                MENU-LIST | MENU-ITEM
+                <menu-item ng-repeat="item in [1,2,3]" class="item"></menu-item>
             </div>
             <div class="aside__container">
                 CHECK-BOX
             </div>
             <div class="aside__container">
-                MENU-LIST | FRIEND-ITEM
+                <user-item ng-repeat="friend in [1,2,3,4]" class="user"></user-item>
             </div>
         </div>
         `

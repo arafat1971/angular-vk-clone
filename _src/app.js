@@ -21,11 +21,11 @@ module.export = angular
         $urlRouterProvider.otherwise("/");
         $stateProvider.state("login", {
             url: "/login",
-            template: `<user-login></user-login>`,
+            template: `<user-login class="general__container wrapper login"></user-login>`,
         });
         $stateProvider.state("profile", {
             url: "/:profileId",
-            template: `<user-profile class="general__container" id="$ctrl.profileId"></user-profile>`,
+            template: `<user-profile class="general__container wrapper profile" id="$ctrl.profileId"></user-profile>`,
             controller: function($stateParams) {
                 this.profileId = $stateParams.profileId;
             },

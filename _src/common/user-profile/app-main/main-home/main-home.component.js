@@ -6,29 +6,49 @@ const MainHomeComponent = {
             <div class="aside__container">
                 <user-pic>user-pic</user-pic>
             </div>
+
             <div class="aside__container">
                 <div class="aside__head">Gifts</div>
-                <user-gifts class="aside__body">user-gifts</user-gifts>
+                <div class="aside__body">
+                    <gift-item ng-repeat="gift in [1,2,3,4,5,6]" class="item">gift-item</gift-item>
+                </div>
             </div>
+
             <div class="aside__container">
                 <div class="aside__head">Friends</div>
-                <user-friends class="aside__body">users-friends</user-friends>
+                <div class="aside__body">
+                    <user-item ng-repeat="user in [1,2,3,4,5,6]" class="user"></user-item>
+                </div>
                 <hr />
                 <div class="aside__head">Friends online</div>
-                <user-friends class="aside__body">users-friends</user-friends>
+                <div class="aside__body">
+                    <user-item ng-repeat="user in [1,2,3]" class="user"></user-item>
+                </div>
             </div>
+
             <div class="aside__container">
                 <div class="aside__head">Publics</div>
-                <user-publics class="aside__body">user-publics</user-publics>
+                <div class="aside__body">
+                    <group-item ng-repeat="group in [1,2,3,4,5]" class="user"></group-item>
+                </div>
+
                 <hr />
                 <div class="aside__head">Pictures</div>
-                <user-albums class="aside__body">user-albums</user-albums>
+                <div class="aside__body">
+                    <image-item ng-repeat="image in [1,2]" class="image"></image-item>
+                </div>
+
                 <hr />
                 <div class="aside__head">Movies</div>
-                <user-albums class="aside__body">user-albums</user-albums>
+                <div class="aside__body">
+                    <movie-item ng-repeat="movie in [1,2]" class="movie"></movie-item>
+                </div>
+
                 <hr />
                 <div class="aside__head">Audio</div>
-                <user-audio class="aside__body">user-audio</user-audio>
+                <div class="aside__body">
+                    <audio-item ng-repeat="audio in [1,2,3]" class="item"></audio-item>
+                </div>
             </div>
         </div>
 
@@ -37,13 +57,13 @@ const MainHomeComponent = {
                 <user-info></user-info>
             </div>
             <div class="content__container">
-                <add-pic class="form">FORM (add pic)</add-pic>
+                <form-example class="form"></form-example>
             </div>
             <div class="content__container">
-                <add-news class="form">FORM (add news)</add-news>
+                <form-example class="form"></form-example>
             </div>
             <div class="content__container">
-                <post-list></post-list>
+                <news-item ng-repeat="audio in [1,2,3,4,5,6,7,8]" class="news"></news-item>
             </div>
         </div>
         `
