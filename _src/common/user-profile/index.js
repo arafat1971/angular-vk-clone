@@ -22,10 +22,11 @@ const UserProfileModule = angular.module("UserProfileModule", [
         $stateProvider.state("profile.home", {
             url: "/",
             resolve: {
-                user: function () {
+                _news: function (_users) {
+                    // you can add parent (_users) resolve and wait it before started this one;
                     // we have to inject here service for example: "UserService";
                     // return UserService.getUser(); // promise
-                    console.log("resolve: UserProfile service");
+                    console.log("resolve: HOME");
                 }
             },
             template: `<main-home class="main__container"></main-home>`
@@ -34,12 +35,18 @@ const UserProfileModule = angular.module("UserProfileModule", [
         // ----------------------------------------------------------------
         $stateProvider.state("profile.news", {
             url: "/news",
+            resolve: {
+                _news: function (_users) {console.log("resolve: NEWS"); }
+            },
             template: `<main-news class="main__container"></main-news>`
         });
         
         // ----------------------------------------------------------------
         $stateProvider.state("profile.messages", {
             url: "/messages",
+            resolve: {
+                _messages: function (_users) {console.log("resolve: MESSAGES"); }
+            },
             template: `<main-messages class="main__container"></main-messages>`
         });
         
@@ -79,8 +86,6 @@ const UserProfileModule = angular.module("UserProfileModule", [
             template: `<main-games class="main__container"></main-games>`
         });
         
-        
-        
         // ==================================================================================
         $stateProvider.state("profile.bookmarks", {
             url: "/bookmarks",
@@ -107,7 +112,6 @@ const UserProfileModule = angular.module("UserProfileModule", [
     .name;
 
 export default UserProfileModule;
-
 
 
 
