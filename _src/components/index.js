@@ -2,6 +2,9 @@
 
 "use strict";
 
+
+import UserDirectives    from "./_directives/index.js";
+
 import AudioModule    from "./audio-module/index.js";
 import DocsModule     from "./docs-module/index.js";
 import FormModule     from "./forms-module/index.js";
@@ -16,8 +19,9 @@ import NewsModule     from "./news-module/index.js";
 import UserModule     from "./user-module/index.js";
 
 
-
 const components = angular.module("app.components", [
+        UserDirectives,
+    
         AudioModule,
         DocsModule,
         FormModule,
