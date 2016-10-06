@@ -7,6 +7,7 @@ class PassValidator {
         this.restrict = "A";
         this.require  = "ngModel";
     }
+    
     link(scope, elm, attrs, ctrl) {
         // ------------------------------------------------------------------------------------------
         console.log("=========================================");
@@ -27,7 +28,7 @@ class PassValidator {
             console.log(scope.pwdHasNumber);
             console.log(scope.pwdValidLength);
             // ------------------------------------------------------------------------------------------
-            if (scope.pwdValidLength && scope.pwdHasLetter && scope.pwdHasNumber) {
+            if (scope.pwdValidLength && scope.pwdHasLetter && scope.pwdHasNumber) { 
                 ctrl.$setValidity("pwd", true);
                 return viewValue;
             } else {
