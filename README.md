@@ -7,39 +7,11 @@
 + angular 1.5.8 (components)
 + ui-router
 
-
-*******
-#### Dependencies:
-
 ```
-bower i
-npm i
+$ npm i
+$ NODE_ENV=public webpack
+$ webpack
 ```
-
-*******
-
-#### Run server from *public* directory:
-
-```
-python -m http.server 9000
-```
-
-*******
-
-#### Build with webpack:
-
-for production:
-
-```
-NODE_ENV=public webpack
-```
-
-for developer (default):
-
-```
-webpack
-```
-
 
 
 
