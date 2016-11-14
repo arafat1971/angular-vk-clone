@@ -1,29 +1,12 @@
-'use strict';
+"use strict";
+
+import controller from "./main-bookmarks.controller.js";
+import template   from "./main-bookmarks.tmp.html";
+import "./style.bookmarks.css";
 
 const MainBookmarksComponent = {
-    template: `
-        <div class="content left">
-            <div class="content__container">
-                <div class="content__head">
-                    <span>My type of bookmarks</span>
-                    <a class="btn" href="javascript:void(0);">Add link</a>
-                </div>
-                <div class="form">
-                    <form-example></form-example>
-                </div>
-                <div class="content__body">
-                    <div>Here ui-view: (example - user-item)</div>
-                    <user-item ng-repeat="user in [1,2,3,4,5]" class="user"></user-item>
-                </div>
-            </div>
-        </div>
-
-        <div class="aside right">
-            <div class="aside__container">
-                <menu-item ng-repeat="item in [1,2,3]" class="item"></menu-item>
-            </div>
-        </div>
-        `
+    controller,
+    template
 };
 
 export default MainBookmarksComponent;

@@ -3,7 +3,7 @@
 function AppRootRun($rootScope, $state, $location, AuthByEventService) {
     // ------------------------------------------------------------------------------------------------------
     $rootScope.profileId = "mr-heisenberg";
-    console.log("RUN init: app-run");
+    console.log("RUN init: app-root");
     //// ------------------------------------------------------------------------------------------------------
     //// https://github.com/angular-ui/ui-router/wiki#state-change-events
     //$rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams, options) {

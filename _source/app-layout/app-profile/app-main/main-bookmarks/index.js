@@ -1,14 +1,16 @@
-/*global angular */
-
 "use strict";
-
+// ---------------------------------------------------------------
+import angular  from "angular";
+import uiRouter from "angular-ui-router";
+// ---------------------------------------------------------------
 import MainBookmarksComponent from './main-bookmarks.component';
-//import MainBookmarksService   from './main-bookmarks.service';
 
 
-const MainBookmarks = angular.module('MainBookmarks', ["ui.router"])
-    .config(($locationProvider, $stateProvider, $urlRouterProvider) => {})
-    .component('mainBookmarks', MainBookmarksComponent)
-    .name;
+const MainBookmarksModule = angular.module('MainBookmarksModule', [
+    uiRouter
+])
+.config(($locationProvider, $stateProvider, $urlRouterProvider) => {})
+.component('mainBookmarks', MainBookmarksComponent)
+.name;
 
-export default MainBookmarks;
+export default MainBookmarksModule;

@@ -1,7 +1,7 @@
 "use strict";
 
 
-class AppTopController {
+class MainAudioController {
     constructor() {
         console.log("init: main-audio.component");
     }
@@ -9,6 +9,6 @@ class AppTopController {
     $onInit() {}
 }
 
-AppTopController.$inject = [];
+MainAudioController.$inject = [];
 
-export default AppTopController;
+export default MainAudioController;

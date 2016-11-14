@@ -15,8 +15,12 @@
 .page__body {}
 
 
-
-
+.clearfix:before,
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
 
 
 .wrapper {

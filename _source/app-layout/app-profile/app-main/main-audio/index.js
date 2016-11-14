@@ -6,7 +6,7 @@ import uiRouter from "angular-ui-router";
 import MainAudioComponent from "./main-audio.component";
 
 
-const MainAudioModule = angular.module("MainAudio", [
+const MainAudioModule = angular.module("MainAudioModule", [
     uiRouter
 ])
 .config(($locationProvider, $stateProvider, $urlRouterProvider) => {})
