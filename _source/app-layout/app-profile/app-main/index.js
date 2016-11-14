@@ -19,6 +19,7 @@ import './style.aside.css';
 import './style.content.css';
 
 
+
 const AppMainModule = angular.module('AppMainModule', [
 //    MainAudio,
 //    MainFriends,

@@ -1,11 +1,12 @@
-/*global angular */
-
 "use strict";
-
+// ---------------------------------------------------------------
+import angular  from "angular";
+// ---------------------------------------------------------------
 import AppTopComponent from './app-top.component.js';
 
-const appTop = angular.module('appTop', [])
+
+const AppTopModule = angular.module('AppTopModule', [])
     .component('appTop', AppTopComponent)
     .name;
 
-export default appTop;
+export default AppTopModule;

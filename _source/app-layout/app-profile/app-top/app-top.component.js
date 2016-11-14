@@ -1,8 +1,12 @@
 "use strict";
 
+import controller from "./app-top.controller.js";
+import template   from "./app-top.tmp.html";
+import "./style.top.css";
 
 const AppTopComponent = {
-    template: `<h2>APP-TOP.component template</h2>`
+    controller,
+    template
 };
 
 export default AppTopComponent;
