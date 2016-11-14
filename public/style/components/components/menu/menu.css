@@ -1,9 +1,0 @@
-.menu {}
-
-.menu__list {}
-
-.menu__item {}
-
-.nav .menu__item + .menu__item {
-    margin-top: 5px;
-}

@@ -1,0 +1,60 @@
+.page,
+.page__container {
+    border: solid 2px gold;
+    display: block;
+    padding: 6px
+}
+
+.page {
+    min-height: 100%;
+    background-color: #777;
+}
+
+.page__container {}
+.page__head {}
+.page__body {}
+
+
+
+
+
+
+.wrapper {
+    min-width: 300px;
+    max-width: 960px;
+    margin: 0 auto;
+    outline: solid 2px #fff;
+}
+
+.check_it_all {
+    font-size: 12px;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    background-color: #333;
+    margin-bottom: 5px;
+}
+
+ui-view {
+    display: block;
+}
+
+/*
+.app,
+.app__container {
+    display: block;
+}
+
+.app {
+    height: 100%;
+    padding: 10px;
+    border: solid 5px #0ff;
+    background-color: #333;
+}
+
+.app__container {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}*/

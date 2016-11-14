@@ -1,16 +1,2 @@
-**/.vscode
 node_modules/
-public/script/main.js
-**/**/bower/
-
-
-
-
-
-
-
-
-
-
-
-
+public/resource/
