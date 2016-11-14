@@ -1,30 +1,12 @@
-'use strict';
+"use strict";
+
+import controller from "./main-audio.controller.js";
+import template   from "./main-audio.tmp.html";
+import "./style.audio.css";
 
 const MainAudioComponent = {
-    template: `
-        <div class="content left">
-            <div class="content__container">
-                <div class="content__head">
-                    <audio-player class="player"></audio-player>
-                </div>
-                <div class="form">
-                    <form-example></form-example>
-                </div>
-                <div class="content__body">
-                    <audio-item ng-repeat="audio in [1,2,3,4,5,6,7,8,9,10]" class="item"></audio-item>
-                </div>
-            </div>
-        </div>
-
-        <div class="aside right">
-            <div class="aside__container">
-                <menu-item ng-repeat="item in [1,2,3]" class="item"></menu-item>
-            </div>
-            <div class="aside__container">
-                <user-item ng-repeat="user in [1,2,3,4,5]" class="user"></user-item>
-            </div>
-        </div>
-        `
+    controller,
+    template
 };
 
 export default MainAudioComponent;

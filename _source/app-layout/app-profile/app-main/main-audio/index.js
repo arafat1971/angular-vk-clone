@@ -1,14 +1,16 @@
-/*global angular */
-
 "use strict";
+// ---------------------------------------------------------------
+import angular  from "angular";
+import uiRouter from "angular-ui-router";
+// ---------------------------------------------------------------
+import MainAudioComponent from "./main-audio.component";
 
-import MainAudioComponent from './main-audio.component';
-//import MainAudioService   from './main-audio.service';
 
-const MainAudio = angular.module('MainAudio', ["ui.router"])
+const MainAudioModule = angular.module("MainAudio", [
+    uiRouter
+])
+.config(($locationProvider, $stateProvider, $urlRouterProvider) => {})
+.component("mainAudio", MainAudioComponent)
+.name;
 
-    .config(($locationProvider, $stateProvider, $urlRouterProvider) => {})
-    .component('mainAudio', MainAudioComponent)
-    .name;
-
-export default MainAudio;
+export default MainAudioModule;
