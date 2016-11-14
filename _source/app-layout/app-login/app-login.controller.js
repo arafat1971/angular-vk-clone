@@ -2,7 +2,7 @@
 
 class UserLoginController {
     constructor() {
-        console.log("init: user-login.component");
+        console.log("init: app-login.component");
     }
     
     $onInit() {}

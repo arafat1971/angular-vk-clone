@@ -10,7 +10,7 @@ import RejectInterceptor     from "./auth-services/reject-interceptor.service.js
 import CookieStorageService  from "./storage-services/cookie-storage.service.js";
 import LocalStorageService   from "./storage-services/local-storage.service.js";
 import SessionStorageService from "./storage-services/session-storage.service.js";
-
+import AppProfileService     from "./profile-services/app-profile.service.js";
 
 
 
@@ -22,6 +22,7 @@ const AppServicesModule = angular.module("AppServicesModule", [])
 .service("CookieStorageService", CookieStorageService)
 .service("LocalStorageService", LocalStorageService)
 .service("SessionStorageService", SessionStorageService)
+.service("AppProfileService", AppProfileService)
 .name;
 
 export default AppServicesModule;

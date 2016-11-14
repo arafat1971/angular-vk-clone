@@ -3,7 +3,8 @@
 class AppRootController {
     constructor($rootScope) {
         this.profileId = $rootScope.profileId;
-        console.log("init: app-root.component ", this.profileId);
+        console.log(this.profileId);
+        console.log("init: app-root.component");
     }
     
     $onInit() {}

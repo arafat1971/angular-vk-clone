@@ -1,0 +1,19 @@
+{
+    "hidden": {
+        "profile": true,
+        "images": true,
+        "movies": true,
+        "friends": true
+    },
+    "changeData": {
+        "username": "sdfgds",
+        "email": "sdfg",
+        "alias": "sdgf"
+    },
+    "changePass": {
+        "letters": true,
+        "old": "sdfg",
+        "new": "fsdg",
+        "newAgain": "sdfg"
+    }
+}

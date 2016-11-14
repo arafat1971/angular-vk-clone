@@ -1,9 +1,7 @@
 "use strict";
 
-function AppRootRun($rootScope, $state, $location, AuthByEventService) {
-    // ------------------------------------------------------------------------------------------------------
-    $rootScope.profileId = "mr-heisenberg";
-    console.log("RUN init: app-run");
+function AppProfileRun($rootScope, $state, $location, AuthByEventService) {
+    console.log("RUN init: app-profile");
     //// ------------------------------------------------------------------------------------------------------
     //// https://github.com/angular-ui/ui-router/wiki#state-change-events
     //$rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams, options) {
@@ -31,6 +29,6 @@ function AppRootRun($rootScope, $state, $location, AuthByEventService) {
     //});
 }
 
-AppRootRun.$inject = ["$rootScope", "$state", "$location", "AuthByEventService"];
+AppProfileRun.$inject = ["$rootScope", "$state", "$location", "AuthByEventService"];
 
-export default AppRootRun;
+export default AppProfileRun;

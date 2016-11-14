@@ -2,14 +2,14 @@
 // ---------------------------------------------------------------
 import angular  from "angular";
 // ---------------------------------------------------------------
-import UserProfileModule from "./user-profile/index.js";
-import UserLoginModule   from "./user-login/index.js";
+import AppLoginModule   from "./app-login/index.js";
+import AppProfileModule from "./app-profile/index.js";
 
 
 
 const AppLayoutModule = angular.module("AppLayoutModule", [
-        UserLoginModule,
-//        UserProfileModule
+        AppLoginModule,
+        AppProfileModule
     ])
     .name;
 

@@ -1,0 +1,142 @@
+{
+    "id": 54187929842984,
+
+    "personalInfo": {
+        "avatarUrl": "https://frenchfinest.files.wordpress.com/2012/06/saint-exupery.jpg",
+
+        "email": "flymacho@gmail.com",
+
+        "username": "exupery",
+
+        "fullName": {
+            "firstName": "Antoine",
+            "middleName": "Marie Jean-Baptiste",
+            "lastName": "Roger",
+            "alias": "Exupery"
+        },
+
+        "birthdate": "1900-06-29",
+
+        "familyStatus": "married",
+
+        "contactInfo": {
+            "address": [
+                {
+                    "type": "hometown",
+                    "country": "USA",
+                    "department": "NY",
+                    "city": "NY",
+                    "street": "52",
+                    "home": "3",
+                    "corp": "C",
+                    "apartment": "456"
+                }
+            ],
+            "phoneNumber": ["+375000000000", "+375000000000"],
+            "page": "exupery.com",
+            "other": {
+                "skype": "exupery1900",
+                "jaber": "mr-Ex"
+            }
+        },
+
+        "languages": ["franch", "english", "swahili"],
+
+        "gender": "male",
+
+        "relatives": [],
+
+        "education": [
+            {
+                "type": "base",
+                "country": "Franch",
+                "city": "LaRoshel",
+                "institution": "school #3",
+                "group": "B",
+                "spec": ["literature"],
+                "status": "",
+                "period": {
+                    "start": "1907-09-01",
+                    "end": "1917-05-29"
+                }
+            }
+        ],
+
+        "career": [
+            {
+                "institution": "Military",
+                "country": "US",
+                "city": "NY",
+                "status": "Engineer"
+            }
+        ],
+
+        "duty": [
+            {
+                "country": "US",
+                "service": "AF-345",
+                "period": {
+                    "start": "1917-12-07",
+                    "end": "1923-03-29"
+                }
+            }
+        ],
+
+        "lifestyle": {
+            "politic": "Monarch",
+            "ideology": "...",
+            "life": "children",
+            "people": "brave",
+            "smoke": "no",
+            "alko": "yes",
+            "inspiration": ["dogs", "wife", "literature"]
+        },
+
+        "about": {
+            "activity": ["write books"],
+            "interests": ["flights"],
+            "music": ["Roling Stones"],
+            "movies": ["Charley Chaplin"],
+            "tvshow": ["Moskow never sleep"],
+            "books": ["GF23"],
+            "games": ["Mortal Kombat"],
+            "quotations": ["Fuck them all (Someone unknown)"],
+            "me": ["gunslinger"]
+        }
+    },
+
+
+    "messages": [],
+
+    "friends": ["id_857403587234587", "id_4injdkwe8r9eh"],
+
+    "userMedia": {
+        "gifts": ["gf_45623475389283", "gf_32000000000234", "gf_93297534285990"],
+        "feed": ["fd_45623475389283", "fd_32000000000234", "fd_93297534285990"],
+        "images": ["img_45623475389283", "img_32000000000234", "img_93297534285990"],
+        "movies": ["mv_45623475389283", "mv_32000000000234", "mv_93297534285990"],
+        "audio": ["aud_45623475389283", "aud_32000000000234", "aud_93297534285990"],
+        "games": ["gm_45623475389283", "gm_32000000000234", "gm_93297534285990"]
+    },
+
+
+    "publics": {
+        "subscriber": {
+            "gropus": ["pub_gr_34857340895234"],
+            "publics": ["pub_pub_43782584523487"]
+        },
+        "owner": {
+            "gropus": ["pub_gr_2348957873497825"],
+            "publics": ["pub_pub_95723492852734848"]
+        }
+    },
+
+    "userSettings": {
+        "visibilityData": {
+            "profile": true,
+            "images": true,
+            "movies": true,
+            "friends": true
+        }
+    }
+}

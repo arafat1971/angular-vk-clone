@@ -19,7 +19,8 @@ angular.module("myApp", [
     uiRouter,
     AppComponentsModule,
     AppLayoutModule,
-    AppServicesModule
+    AppServicesModule,
+    uiRouter
 ])
 .run(RootRun)
 .config(RootConfig)
