@@ -30,9 +30,9 @@ function AppRootConfig($locationProvider, $stateProvider, $urlRouterProvider) {
 //    $stateProvider.state("login", {
 //        url: "/login",
 //        template: `
-//            <user-login
+//            <app-login
 //                class="general__container wrapper login">
-//            </user-login>`
+//            </app-login>`
 //    });
 //
 //    $stateProvider.state("profile", {
@@ -42,10 +42,10 @@ function AppRootConfig($locationProvider, $stateProvider, $urlRouterProvider) {
 //            _users: function () {console.log("resolve: USER");}
 //        },
 //        template: `
-//            <user-profile 
+//            <app-profile 
 //                profid="$ctrl.profileId"
 //                class="general__container wrapper profile">
-//            </user-profile>
+//            </app-profile>
 //        `,
 //        controller: function ($stateParams) {
 //            this.profileId = $stateParams.profileId;
@@ -54,7 +54,7 @@ function AppRootConfig($locationProvider, $stateProvider, $urlRouterProvider) {
 //    });
 };
 
-//AppRootConfig.$inject = ["$locationProvider", "$stateProvider", "$urlRouterProvider"];
+AppRootConfig.$inject = ["$locationProvider", "$stateProvider", "$urlRouterProvider"];
 
 export default AppRootConfig;
 

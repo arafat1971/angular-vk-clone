@@ -1,0 +1,33 @@
+.main,
+.main__container {
+    border: solid 2px #0e0;
+    background-color: #a00;
+    display: block;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/*
+.main {
+    width: 79%;
+}
+
+.main.right {
+    float: right;
+    margin-left: 1%;
+}
+
+.main.left {
+    float: left;
+    margin-right: 1%;
+}
+*/
+
+.main__container {}
+
+.main__container:after,
+.main__container:before {
+    content: '';
+    display: table;
+    clear: both;
+}

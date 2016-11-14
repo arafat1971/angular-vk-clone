@@ -1,12 +1,12 @@
-/*global angular */
-
 "use strict";
-
+// ---------------------------------------------------------------
+import angular  from "angular";
+// ---------------------------------------------------------------
 import AppNavComponent from "./app-nav.component.js";
 
 
-const appNav = angular.module("appNav", [])
+const AppNavModule = angular.module("AppNavModule", [])
     .component("appNav", AppNavComponent)
     .name;
 
-export default appNav;
+export default AppNavModule;

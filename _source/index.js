@@ -13,8 +13,6 @@ import AppServicesModule   from "./app-services/index.js";
 // ---------------------------------------------------------------
 
 
-
-
 angular.module("myApp", [
     uiRouter,
     AppComponentsModule,

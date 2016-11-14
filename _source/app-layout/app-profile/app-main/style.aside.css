@@ -1,0 +1,33 @@
+.aside,
+.aside__container,
+.aside__head,
+.aside__body,
+.aside__foot {
+    display: block;
+}
+
+.aside {
+    width: 30%;
+}
+.aside.left {
+    float: left;
+}
+.aside.right {
+    float: right;
+}
+.aside__container {
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.aside__head {
+    padding: 5px;
+    background-color: #eee;
+}
+
+.aside__body {
+    padding: 5px;
+}
+
+.aside__foot {}

@@ -13,6 +13,10 @@ import angular  from "angular";
 //import MainNews      from './main-news/index.js';
 //import MainBookmarks from './main-bookmarks/index.js';
 //import MainDocs      from './main-docs/index.js';
+// ---------------------------------------------------------------
+import './style.main.css';
+import './style.aside.css';
+import './style.content.css';
 
 
 const AppMainModule = angular.module('AppMainModule', [
