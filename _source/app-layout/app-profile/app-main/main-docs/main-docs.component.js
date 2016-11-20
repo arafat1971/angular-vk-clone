@@ -1,5 +1,6 @@
 'use strict';
 
+
 const MainBookmarksComponent = {
     template: `
         <div class="content left">
@@ -27,6 +28,3 @@ const MainBookmarksComponent = {
 };
 
 export default MainBookmarksComponent;
-
-
-
